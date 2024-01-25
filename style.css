@@ -1,0 +1,53 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+        transition: all ease-in-out 0.5s;
+    }
+
+    .Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #btn {
+        background-color: #f50a0a;
+        color: #fff;
+        width: 38vh;
+        height: 10vh;
+        font-size: 5vh;
+        border-radius: 20vh;
+        margin-top: 43vh;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #000;
+        font-weight: 600;
+
+    }
+
+    button {
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #btn:active {
+        color: blue;
+
+    }
+
+    #btn:hover {
+        text-decoration: underline;
+        background-color: #034aa7;
+        transition: all 0.10s;
+        border: 2px solid #fff;
+    }
+
+    .darkmode {
+        color: #fff;
+        background-color: #000000;
+    }
